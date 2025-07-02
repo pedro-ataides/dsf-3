@@ -1,0 +1,264 @@
+*{margin: 0; overflow: hidden;
+box-sizing: border-box;}
+
+body{ display: grid; 
+grid-template-columns: 90px 1fr ;
+height: 100vh;
+}
+
+a{text-decoration: none;}
+
+#gran {display: grid;
+    grid-template-rows:90px 1fr ;} 
+    
+
+    #un{background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+ 
+.unsv{fill: white;
+  
+;}
+
+
+    #que{
+        display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8%;
+}
+
+.quesv{fill: rgb(46, 46, 46);}
+
+
+
+.bar{background-color: rgb(255, 255, 255);
+height: 100vh;
+width: 275px;
+position: fixed;
+top: 0;
+left: -335px;
+z-index: 1;
+transition: 0.5s;
+display: grid;
+    grid-template-rows:90px 1fr ;
+    
+}
+
+   #un2{background-color: #2916E0;
+        display: flex;
+        flex-direction: row;
+gap: 15%;
+      
+    }
+
+    .bea{height: 90px;
+    width: 90px;
+      display: flex; 
+      position: relative;
+background-color: rgb(0, 0, 0);
+align-items: center;
+justify-content: center;
+
+}
+
+.emi{display: flex; 
+    justify-content: center;
+align-items: center;}
+
+
+.sub{z-index: 99; fill: rgb(255, 255, 255);
+height: 35px;
+width: 35px;    
+}
+
+.dof{height: 85%;
+width: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 30px;
+font-family: sans-serif;
+
+}
+
+.sib{line-height: 200%;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.suba{color: #2916E0;}
+
+.suba2{color: #8d8c8c; transition: 0.4s;}
+
+.suba2:hover{color: #2916E0;}
+
+.bach{height: 22%;
+width: 100%;
+position: absolute;
+bottom: 0%;
+display: flex
+;
+flex-direction: column;
+gap: 5%;
+}
+
+.rin{
+width: 100%;
+height: 22%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 13%;
+fill: #8d8c8c;}
+
+.sae{
+    display: grid;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 40%;
+font-size: 15px;
+font-family: sans-serif;
+color: #8d8c8c ;
+}
+
+#a{position: absolute;
+    z-index: 99;
+  top: 0;
+  left: 0;
+    height: 10vh;
+    width: 10vh;
+    opacity: 0;
+}
+
+
+
+#a:checked~.bar{left: 0;}
+
+
+.kir{overflow-y: scroll;
+    width: 100%;
+display: grid;
+grid-template-columns: 18% 18% 19% 19% 20%;
+grid-template-rows: 40% 30% 40% 1% ;
+gap: 0.9em;
+}
+
+#a1{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/1.jpg );
+height: 110%;
+}
+
+#a2{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/2.jpg );
+height: 65%;
+}
+
+#a3{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/3.jpg );
+height: 120%;
+}
+
+#a4{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/4.jpg );}
+
+#a5{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/5.jpg );
+height: 124%;}
+
+#a6{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/6.jpg );
+height: 86%;
+    position: relative;
+bottom: -15%;
+}
+
+#a7{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/7.jpg );
+position: relative;
+bottom: 50%;
+height: 124%;
+}
+
+#a8{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/8.jpg );
+    position: relative;
+bottom: -28%;
+height: 118%;
+}
+
+#a9{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/9.jpg );
+height: 86%;
+}
+
+#a10{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/10.jpg );
+    height: 75%;
+    position: relative;
+bottom: -35%;}
+
+#a11{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/11.jpg );
+}
+
+#a12{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/12.jpg );
+    position: relative;
+bottom: 20%;
+height: 120%;}
+
+#a13{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/13.jpg );
+    position: relative;
+bottom: -35%;
+height: 65%;
+}
+
+#a14{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/14.jpg );
+    position: relative;
+bottom: 10%;
+height: 110%;
+}
+
+#a15{background-image: url(https://preview.colorlib.com/theme/tulen/img/blog/15.jpg );
+height: 92%;
+position: relative;
+bottom: -8%;}
+
+.luc{
+    background-size: cover;
+    background-position-y: 50%;
+    background-position-x: 70%;
+     box-shadow: inset 0px -100px 40px 0px #00000076;
+}
+
+.dm{width: 100px;
+    text-align: center;
+
+position: relative;
+top: 5%;
+left: 5%;
+font-size: 20px;
+color: rgb(64, 0, 255);
+
+transition: 0.8s;
+margin: 15px;
+background-color: white ;}
+
+.dm1{width: 100%;
+height: 90%;
+
+color: whitesmoke;
+
+line-height: 200%;
+}
+#dm1{position: relative;
+top: 50%;}
+
+.dm2{position: relative;
+left: 10%;
+}
+
+.dm3{position: relative;
+left: 10%;
+font-size: 20px;
+color: white;
+font-family: sans-serif;
+}
+
